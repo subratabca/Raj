@@ -1,0 +1,10 @@
+@extends('backend.layout.master')
+@section('title', 'Admin || Food Page')
+@section('breadcum', 'Upload Food')
+@section('content')
+    @include('backend.components.food.index')
+    @include('backend.components.food.create')
+    @include('backend.components.food.show')
+    @include('backend.components.food.update')
+    @include('backend.components.food.delete')
+@endsection
